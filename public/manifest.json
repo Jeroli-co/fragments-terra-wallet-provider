@@ -1,0 +1,32 @@
+{
+  "name": "Fragments Terra wallet provider",
+  "short_name": "Fragments Terra wallet provider",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "description": "Terra wallet provider for the Fragments community",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo/logo_192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo/maskable_icon_x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo/logo_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone"
+}

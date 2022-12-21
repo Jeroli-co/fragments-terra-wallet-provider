@@ -1,0 +1,124 @@
+html,
+body,
+main,
+#root {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+html {
+  font-family: QTEurotype, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  background: #0a0a0a;
+  color: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: QTEurotype, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.wallet-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.wallet-logos {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 10%;
+}
+
+.wallet-logo {
+  width: 40%;
+  height: auto;
+}
+
+.wallet-logo-text {
+  width: 80%;
+  height: auto;
+}
+
+.wallet-box {
+  border: 3px solid #FF5900;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.wallet-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: .5rem;
+  text-align: center;
+}
+
+.wallet-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  padding: 8px;
+  cursor: pointer;
+  color: #FF5900;
+  font-weight: bold;
+  background: #0a0a0a;
+  font-size: 1rem;
+  border: 1px solid #FF5900;
+  transition: background-color ease-in-out 300ms, color ease-in-out 300ms;
+}
+
+.wallet-btn:hover {
+  color: #0a0a0a;
+  background: #FF5900;
+}
+
+.wallet-addr-chooser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+}
+
+.wallet-link {
+  color: #FF5900;
+  transition: color ease-in-out 150ms;
+}
+
+.wallet-link:hover {
+  color: #dab933;
+}

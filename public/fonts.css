@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'QTEurotype';
+    font-weight: 400;
+    src: url('fonts/QTEurotype.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'QTEurotype';
+    font-weight: 700;
+    src: url('fonts/QTEurotype-Bold.ttf') format('truetype');
+}
